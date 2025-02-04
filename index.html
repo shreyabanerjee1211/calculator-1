@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bobcares</title>
+  <div align="center">
+   <img style="width:800px; height:150px;" src="https://i.postimg.cc/pLBRBkjR/bobcares-removebg-preview.png" 
+         alt="image">
+  </div>
+</head>
+<body>
+ 
+  <div class="container">
+    <table id="themetable"align="center">
+      <tr>
+        
+        <td style="border-bottom:1px solid #f1f1f1;"><h2 id="theme">Theme</h2></td>
+      </tr>
+      <tr>
+  <td id="color"><form>
+     <input onclick="mycolor(this.value)" id="white"type="radio" name="optradio"  class="rad" value="#FFFFFF">
+    <label for="white" class="radio-inline rad" style=" background-color: #FFFFFF;">
+     
+    </label>
+    <input onclick="mycolor(this.value)"  id="beige" type="radio" name="optradio" class="rad" value="#eae2b7">
+    <label for="beige" class="radio-inline rad" style=" background-color:#eae2b7;">
+    </label>
+     <input onclick="mycolor(this.value)" id="yellow" type="radio" name="optradio"  class="rad" value="#fcbf49">
+    <label for="yellow" class="radio-inline size-change rad"style=" background-color: #fcbf49;">
+     </label>
+     <input onclick="mycolor(this.value)" id="orange" type="radio" name="optradio" class="rad" value="#f77f00" >
+    <label for="orange" class="radio-inline rad" style=" background-color:#f77f00;">
+      
+   </label>
+        <input onclick="mycolor(this.value)" id="red" type="radio" name="optradio"  class="rad" value="#d62828">                                                
+    <label  for="red" class="radio-inline rad" style=" background-color:#d62828;">
+     
+    </label>
+    <input onclick="mycolor(this.value)" id="blue" type="radio" name="optradio"  class="rad" value="#003049">
+    <label for="blue" class="radio-inline rad" style=" background-color: #003049;">
+      
+    </label>
+  </form>
+        </td>
+      </tr>
+    </table>
+</div>
+  <br><br><br>
+  <div>
+     <table align="center" id="head" style="border-spacing:0;padding:0;">
+     <tr>
+        <th>Calculator</th>
+       </table>
+    <table align="center" id="cal">
+     <tr>
+       <td style="text-align:left;width:100%;padding-left:40px; margin:0;">
+         <div style="display:flex;"><span style="width:50%;"><label for="first" id="labelid">Enter First Operation</label></span></td>
+        <td style="padding-right:40px;">   <span align="right"><input type="text"  name="first" id="first" oninput="validateNumber(this)"></span></div>
+       </td>
+     </tr>
+    
+       <tr>
+         <td style="text-align:left;padding-left:40px;" id="labelid">Operation </td>
+        <td style="padding-right:40px;"> <select name="op" id="op">
+          
+  <option value="+">+</option>
+  <option value="-">-</option>
+  <option value="*">x</option>
+  <option value="/">/</option>
+          </select></td>
+         </tr>
+     <tr>
+       <td style="text-align:left;width:100%;padding-left:40px; margin:0;">
+         <div style="display:flex; width:100%; ">
+           <span style="width:100%;"><label for="second" id="labelid">Enter Second Operation</label></span></td>
+             <td style="padding-right:40px;"> <span id="second-spa"><input type="text" name="second" id="second" oninput="validateNumber(this)" ></span>
+            </div>
+          </td>
+    </tr>
+    </table>
+  <table align="center" id="resulttable">
+    <tr>
+      <td>
+        <table align="center" style="width:400px;">
+          <td style="background-color:#e6eefd;" class="styleres">Result</td>
+          <td>
+            <div id="res-ans" class="styleres"></div>
+            </td>
+        </table>
+      </td>
+      <tr>
+  </table>
+  <script src="script.js"></script> 
+ 
+</body>
+</html>

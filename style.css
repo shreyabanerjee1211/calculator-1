@@ -1,0 +1,183 @@
+table,td,tr{
+  border:1px solid grey;
+  width:600px;
+  text-align:center;
+
+  
+}
+
+#color{
+  display:flex;
+  justify-content:center;
+  height:75px;
+}
+input[name='optradio']{
+  height:50px;
+  width:50px;
+}
+#theme{
+  font-size:30px;
+  color:#5C4033;
+  
+ 
+}
+#themetable{
+border-radius: 10px;
+  background:white;
+  border-radius:10px;
+border-color:#f1f1f1;
+   font-family:Arial;
+ 
+}
+
+.size-change{
+  height:50px;
+  width:50px;
+}
+.rad{
+  display:inline-block;
+  height: 50px;         
+  width: 50px;  
+  border-radius:50px;
+}
+#white + label{
+  border:1px solid grey;
+}
+#white:checked+label {
+  background: #FFFFFF; 
+  border:1px solid black;
+  }
+#beige:checked+label {
+  background:  #C8B398; 
+  border:1px solid black;
+  }
+
+#yellow:checked+label {
+  background: #FFFF00; 
+  border:1px solid black;
+  }
+#orange:checked+label {
+  background: #FFA500; 
+  border:1px solid black;
+  }
+#red:checked+label {
+  background: #FFA500; 
+  border:1px solid black;
+  }
+#blue:checked+label {
+  background: #FFA500; 
+  border:1px solid black;
+  
+}
+.rad{
+  border-radius:50%;
+  display: inline-block;
+  height: 50px;        
+  width: 50px; 
+}
+
+table#cal thead,th
+{
+  height:30px;
+  background:white;
+  border-top-left-radius:10px;
+   border-top-right-radius:10px;
+
+    font-family:Arial;
+    padding:0;
+margin:0;
+ 
+  }
+
+table#cal tr,td
+{
+  border-style:none;
+  height:30px;
+  font-size:20px;
+  padding:5px;
+
+  }
+#cal{
+  background:white;
+border-color:#f1f1f1;
+ }
+
+table#head th{
+  height:70px;
+   font-size:30px;
+    color:#5C4033;
+  
+}
+
+#head{
+ border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+border-color:#f1f1f1;
+
+}
+#resulttable{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background:white;
+border-color:#f1f1f1;
+font-family:Arial;
+ }
+
+ 
+  label {
+           white-space: nowrap;
+        }
+        
+   span {
+          width:100%;
+            }
+        
+  #first,#second {
+            width: 80px;
+            height:30px;
+             padding:2px;
+            background:#f1f1f1;
+            float:right;
+     color:#35082d;
+     font-size:20px;
+    
+    border:none;
+     text-align:right;
+
+
+        }
+
+
+input[type="radio"]{
+  display:none;
+  
+}
+#second-spa{
+  width:100%;
+   
+}
+#op{
+  background-color:#35082d;
+  color:white;
+  font-size:22px;
+  height:39px;
+  width:83px;
+  font-weight: bolder;
+  text-align:right;
+  padding:1px 9px 4px 7px;
+  border-radius:none;
+
+}
+#labelid{
+  color:#5677b4;
+  font-family:Arial;
+  font-size:23px;
+   font-weight: 548;
+}
+.styleres{
+  color:#35082d;
+     font-size:25px;
+  font-weight: bolder;
+  
+
+}
